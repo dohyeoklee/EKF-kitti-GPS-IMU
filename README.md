@@ -2,9 +2,10 @@
 Simple EKF with GPS and IMU data from kitti dataset
 
 ## Usage
-"Python
+
+```
 python EKF_GPS_IMU.py
-"
+```
 
 ## Algorithm
 
