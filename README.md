@@ -1,13 +1,20 @@
 # EKF-kitti-GPS-IMU
-Simple EKF with GPS and IMU data from kitti dataset
+Simple EKF with GPS and IMU data from kitti dataset for vehicle
 
 ## Usage
-
+Just run below command at terminal
 ```
 python EKF_GPS_IMU.py
 ```
+Dependency: 
+python 3.8.5
+numpy: 1.19.2
+matplotlib: 3.3.2
 
 ## Algorithm
+1. dataloder: convert GPS data to local x,y frame data
+
+2. EKF(Extended Kalman Filter)
 
 ## Result
 I use '2011_09_26_drive_0002' sync data
