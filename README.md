@@ -19,6 +19,8 @@ Dependency:
 
 convert GPS data to local x,y frame data. Refer to: [2], [3]
 
+I set dataset path as **src/oxts**. please change that path as you want.
+
 **EKF(Extended Kalman Filter)**
 
 In this code, I set state vector X = [x,y,v,a,phi,w], measurement vector z = [x,y,a,w]. Type of every matrix/vector except state vector X is numpy.mat type.
