@@ -14,6 +14,8 @@ matplotlib: 3.3.2
 ## Algorithm
 1. dataloder: convert GPS data to local x,y frame data
 
+Refer to: [2], [3]
+
 2. EKF(Extended Kalman Filter)
 In this code, I set state vector X = [x,y,v,a,phi,w], measurement vector z = [x,y,a,w]. Type of every matrix/vector except state vector X is numpy.mat type.
 
@@ -28,3 +30,5 @@ I use '2011_09_26_drive_0002' sync data
 
 ## Reference
 [1] kitti dataset: http://www.cvlibs.net/datasets/kitti/raw_data.php
+[2] haversine method(eng): https://www.movable-type.co.uk/scripts/latlong.html
+[3] haversine method(kor): https://kayuse88.github.io/haversine/
