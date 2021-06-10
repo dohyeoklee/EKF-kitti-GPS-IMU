@@ -4,6 +4,8 @@ Simple EKF with GPS and IMU data from kitti dataset for vehicle
 ## Usage
 Just run below command at terminal
 ```
+git clone https://github.com/dohyeoklee/EKF-kitti-GPS-IMU
+cd src
 python EKF_GPS_IMU.py
 ```
 Dependency: 
@@ -33,9 +35,6 @@ Get measurement vector from dataloader, add additional noise, and put it in the 
 ## Result
 I use '2011_09_26_drive_0002' sync data
 
-```
-![result1](result_img/result_img_1.png)
-```
 <img src="result_img/result_img_1.png" width="500">
 <img src="result_img/result_img_2.png" width="500">
 
