@@ -20,7 +20,7 @@ Dependency:
 2. EKF(Extended Kalman Filter)
 In this code, I set state vector X = [x,y,v,a,phi,w], measurement vector z = [x,y,a,w]. Type of every matrix/vector except state vector X is numpy.mat type.
 
-<img src="algorithm_img/EKF_algorithm.png" width="500">
+<img src="algorithm_img/EKF_algorithm.png" width="600">
 <img src="algorithm_img/EKF_kinematic_model.png">
 
 ## Result
