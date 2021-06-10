@@ -5,7 +5,7 @@ Simple EKF with GPS and IMU data from kitti dataset for vehicle
 Just run below command at terminal
 ```
 git clone https://github.com/dohyeoklee/EKF-kitti-GPS-IMU
-cd src
+cd EKF-kitti-GPS-IMU/src
 python EKF_GPS_IMU.py
 ```
 Dependency: 
