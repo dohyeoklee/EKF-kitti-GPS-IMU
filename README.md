@@ -36,5 +36,7 @@ I use '2011_09_26_drive_0002' sync data
 
 ## Reference
 [1] kitti dataset: http://www.cvlibs.net/datasets/kitti/raw_data.php
+
 [2] haversine method(eng): https://www.movable-type.co.uk/scripts/latlong.html
+
 [3] haversine method(kor): https://kayuse88.github.io/haversine/
