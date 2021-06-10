@@ -15,9 +15,12 @@ Dependency:
 -matplotlib: 3.3.2
 
 ## Algorithm
-1. dataloder: convert GPS data to local x,y frame data. Refer to: [2], [3]
+**dataloder**
 
-2. EKF(Extended Kalman Filter)
+convert GPS data to local x,y frame data. Refer to: [2], [3]
+
+**EKF(Extended Kalman Filter)**
+
 In this code, I set state vector X = [x,y,v,a,phi,w], measurement vector z = [x,y,a,w]. Type of every matrix/vector except state vector X is numpy.mat type.
 
 Get measurement vector from dataloader, and add additional noise. ground truth is [x,y] from dataset.
