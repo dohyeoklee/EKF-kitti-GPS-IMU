@@ -21,7 +21,7 @@ In this code, I set state vector X = [x,y,v,a,phi,w], measurement vector z = [x,
 I use '2011_09_26_drive_0002' sync data
 
 ![result1](result_img/result_img_1.png)
-
+<img src="result_img/result_img_1.png" width="700">
 
 ## Reference
 [1] kitti dataset: http://www.cvlibs.net/datasets/kitti/raw_data.php
