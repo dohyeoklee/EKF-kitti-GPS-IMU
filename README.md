@@ -7,8 +7,11 @@ Just run below command at terminal
 python EKF_GPS_IMU.py
 ```
 Dependency: 
+
 python 3.8.5
+
 numpy: 1.19.2
+
 matplotlib: 3.3.2
 
 ## Algorithm
@@ -18,6 +21,9 @@ Refer to: [2], [3]
 
 2. EKF(Extended Kalman Filter)
 In this code, I set state vector X = [x,y,v,a,phi,w], measurement vector z = [x,y,a,w]. Type of every matrix/vector except state vector X is numpy.mat type.
+
+<img src="algorithm_img/EKF_algorithm.png" width="500">
+<img src="algorithm_img/EKF_kinematic_model.png" width="500">
 
 ## Result
 I use '2011_09_26_drive_0002' sync data
