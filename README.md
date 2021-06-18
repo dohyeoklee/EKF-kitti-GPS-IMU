@@ -29,7 +29,7 @@ In this code, I set state vector X = [x,y,v,a,phi,w], measurement vector z = [x,
 
 Get measurement vector from dataloader, add additional noise, and put it in the EKF algoruthm. Ground truth is [x,y] from dataset.
 
-<img src="algorithm_img/EKF_algorithm.png" width="600">
+<img src="algorithm_img/EKF_algorithm.png" width="700">
 <img src="algorithm_img/EKF_kinematic_model.png">
 
 ## Result
